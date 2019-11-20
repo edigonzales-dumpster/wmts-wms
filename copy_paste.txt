@@ -152,3 +152,12 @@ CASE
 	WHEN  @map_scale <= 750 THEN 9.8
 	ELSE 0.000000001
 END
+
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 8
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 11.2
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 16
+	WHEN  @map_scale <= 750 THEN 22.4
+	ELSE 0.000000001
+END
