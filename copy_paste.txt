@@ -1,0 +1,97 @@
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 0.1
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 0.14
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 0.2
+	WHEN  @map_scale <= 750 THEN 0.28
+	ELSE 0.000000001
+END
+
+
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 0.12
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 0.17
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 0.24
+	WHEN  @map_scale <= 750 THEN 0.34
+	ELSE 0.000000001
+END
+
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN '0.7;0.2'
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN '1.0;0.3'
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN '1.5;0.5'
+	WHEN  @map_scale <= 750 THEN '2.1;0.7'
+	ELSE 0.000000001
+END
+
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 1
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 1.4
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 2
+	WHEN  @map_scale <= 750 THEN 2.8
+	ELSE 0.000000001
+END
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 0.5
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 0.7
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 1
+	WHEN  @map_scale <= 750 THEN 1.4
+	ELSE 0.000000001
+END
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 0.15
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 0.21
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 0.3
+	WHEN  @map_scale <= 750 THEN 0.42
+	ELSE 0.000000001
+END
+
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 5
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 7
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 10
+	WHEN  @map_scale <= 750 THEN 14
+	ELSE 0.000000001
+END
+
+
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 2.5
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 3.5
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 5
+	WHEN  @map_scale <= 750 THEN 7
+	ELSE 0.000000001
+END
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 2.0
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 2.8
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 4.0
+	WHEN  @map_scale <= 750 THEN 5.6
+	ELSE 0.000000001
+END
+
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 1.5
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 2.1
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 3
+	WHEN  @map_scale <= 750 THEN 4.2
+	ELSE 0.000000001
+END
+
+
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 2
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 2.8
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 4
+	WHEN  @map_scale <= 750 THEN 5.6
+	ELSE 0.000000001
+END
