@@ -95,3 +95,60 @@ CASE
 	WHEN  @map_scale <= 750 THEN 5.6
 	ELSE 0.000000001
 END
+
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 1.7
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 2.4
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 3.4
+	WHEN  @map_scale <= 750 THEN 4.8
+	ELSE 0.000000001
+END
+
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 1.9
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 2.65
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 3.8
+	WHEN  @map_scale <= 750 THEN 5.3
+	ELSE 0.000000001
+END
+
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 4.5
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 6.3
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 9
+	WHEN  @map_scale <= 750 THEN 12.6
+	ELSE 0.000000001
+END
+
+CASE
+	WHEN @map_scale > 2000 AND  @map_scale <= 5000 THEN 'Cadastra Condensed'
+	WHEN  @map_scale <= 2000 THEN 'Cadastra'
+	ELSE 0.000000001
+END
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 4.5
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 6.3
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 9
+	WHEN  @map_scale <= 750 THEN 12.6
+	ELSE 0.000000001
+END
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 5.5
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 7.8
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 11
+	WHEN  @map_scale <= 750 THEN 15.4
+	ELSE 0.000000001
+END
+
+CASE
+	WHEN @map_scale > 3000 AND  @map_scale <= 6000 THEN 3.5
+	WHEN @map_scale > 1250 AND  @map_scale <= 3000 THEN 4.9
+	WHEN  @map_scale > 750 AND  @map_scale <= 1250 THEN 7
+	WHEN  @map_scale <= 750 THEN 9.8
+	ELSE 0.000000001
+END
