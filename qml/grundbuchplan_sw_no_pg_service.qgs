@@ -19,93 +19,93 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer name="nomenklatur_ortsnamepos" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_nomenklatur_ortsnamepos&quot; (pos) sql=" id="vw_nomenklatur_ortsnamepos_0974e851_41e1_4afd_9358_761ed6cf3a9c" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="nomenklatur_ortsnamepos" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_nomenklatur_ortsnamepos&quot; (pos) sql=" id="vw_nomenklatur_ortsnamepos_0974e851_41e1_4afd_9358_761ed6cf3a9c" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="nomenklatur_gelaendenamepos" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_nomenklatur_gelaendenamepos&quot; (pos) sql=" id="vw_nomenklatur_gelaendenamepos_9afe3c18_7820_4852_b955_981551edd6a9" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="nomenklatur_gelaendenamepos" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_nomenklatur_gelaendenamepos&quot; (pos) sql=" id="vw_nomenklatur_gelaendenamepos_9afe3c18_7820_4852_b955_981551edd6a9" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="nomenklatur_flurnamepos" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_nomenklatur_flurnamepos&quot; (pos) sql=" id="vw_nomenklatur_flurnamepos_f5018ae2_6d64_4baf_8505_6025006e311e" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="nomenklatur_flurnamepos" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_nomenklatur_flurnamepos&quot; (pos) sql=" id="vw_nomenklatur_flurnamepos_f5018ae2_6d64_4baf_8505_6025006e311e" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="gebaeudeadressen_hausnummerpos" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_gebaeudeadressen_hausnummerpos&quot; (pos) sql=" id="vw_gebaeudeadressen_hausnummerpos_a96b0325_c74a_405c_91b7_a35e0818c0d9" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="gebaeudeadressen_hausnummerpos" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_gebaeudeadressen_hausnummerpos&quot; (pos) sql=" id="vw_gebaeudeadressen_hausnummerpos_a96b0325_c74a_405c_91b7_a35e0818c0d9" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="gebaeudeadressen_lokalisationsnamepos" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_gebaeudeadressen_lokalisationsnamepos&quot; (pos) sql=" id="vw_gebaeudeadressen_lokalisationsnamepos_ffbe8d22_00b9_4ebe_84ca_b0b3afeba41a" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="gebaeudeadressen_lokalisationsnamepos" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_gebaeudeadressen_lokalisationsnamepos&quot; (pos) sql=" id="vw_gebaeudeadressen_lokalisationsnamepos_ffbe8d22_00b9_4ebe_84ca_b0b3afeba41a" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="liegenschaften_grundstueckpos.hilfslinie" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;liegenschaften_grundstueckpos&quot; (hilfslinie) sql=hilfslinie IS NOT NULL" id="liegenschaften_grundstueckpos_hilfslinie_9af26d97_7d9e_41de_a512_9f1375c7a598" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="liegenschaften_grundstueckpos.hilfslinie" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;liegenschaften_grundstueckpos&quot; (hilfslinie) sql=hilfslinie IS NOT NULL" id="liegenschaften_grundstueckpos_hilfslinie_9af26d97_7d9e_41de_a512_9f1375c7a598" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="liegenschaften_grenzpunktpos" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_liegenschaften_grundstueckpos&quot; (pos) sql=" id="vw_liegenschaften_grundstueckpos_0862104d_3b08_419c_9efc_b5b584ed9b61" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="liegenschaften_grenzpunktpos" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_liegenschaften_grundstueckpos&quot; (pos) sql=" id="vw_liegenschaften_grundstueckpos_0862104d_3b08_419c_9efc_b5b584ed9b61" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="fixpunktekatgrie1_lfp1" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie1_lfp1&quot; (geometrie) sql=" id="fixpunktekatgrie1_lfp1_b984d63d_9ff4_4db0_842e_2ccd83fc8205" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="fixpunktekatgrie1_lfp1" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie1_lfp1&quot; (geometrie) sql=" id="fixpunktekatgrie1_lfp1_b984d63d_9ff4_4db0_842e_2ccd83fc8205" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="fixpunktekatgrie1_hfp1" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie1_hfp1&quot; (geometrie) sql=" id="fixpunktekatgrie1_hfp1_5ae2cc61_33ec_4abd_b4dd_9f3fb2cbd008" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="fixpunktekatgrie1_hfp1" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie1_hfp1&quot; (geometrie) sql=" id="fixpunktekatgrie1_hfp1_5ae2cc61_33ec_4abd_b4dd_9f3fb2cbd008" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="fixpunktekatgrie2_hfp2" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie2_hfp2&quot; (geometrie) sql=" id="fixpunktekatgrie2_hfp2_7f7269be_b5c3_4a29_b4af_f84902738408" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="fixpunktekatgrie2_hfp2" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie2_hfp2&quot; (geometrie) sql=" id="fixpunktekatgrie2_hfp2_7f7269be_b5c3_4a29_b4af_f84902738408" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="fixpunktekatgrie2_lfp2" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie2_lfp2&quot; (geometrie) sql=" id="fixpunktekatgrie2_lfp2_f9803269_6af1_4b6a_a970_6d18746213bb" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="fixpunktekatgrie2_lfp2" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie2_lfp2&quot; (geometrie) sql=" id="fixpunktekatgrie2_lfp2_f9803269_6af1_4b6a_a970_6d18746213bb" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="fixpunktekatgrie3_hfp3" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie3_hfp3&quot; (geometrie) sql=" id="fixpunktekatgrie3_hfp3_900acb3d_d761_4387_b29b_13e5d270b760" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="fixpunktekatgrie3_hfp3" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie3_hfp3&quot; (geometrie) sql=" id="fixpunktekatgrie3_hfp3_900acb3d_d761_4387_b29b_13e5d270b760" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="fixpunktekatgrie3_lfp3" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie3_lfp3&quot; (geometrie) sql=" id="fixpunktekatgrie3_lfp3_1afcce44_f572_4d90_a34d_2c2236c00c07" expanded="0" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="fixpunktekatgrie3_lfp3" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;fixpunktekatgrie3_lfp3&quot; (geometrie) sql=" id="fixpunktekatgrie3_lfp3_1afcce44_f572_4d90_a34d_2c2236c00c07" expanded="0" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="kantonsgrenzen_kantonsgrenzabschnitt" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;kantonsgrenzen_kantonsgrenzabschnitt&quot; (geometrie) sql=" id="kantonsgrenzen_kantonsgrenzabschnitt_7fa28cb8_f2ff_4e92_9da5_7cb620b49384" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="kantonsgrenzen_kantonsgrenzabschnitt" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;kantonsgrenzen_kantonsgrenzabschnitt&quot; (geometrie) sql=" id="kantonsgrenzen_kantonsgrenzabschnitt_7fa28cb8_f2ff_4e92_9da5_7cb620b49384" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="gemeindegrenzen_hoheitsgrenzpunkt" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_gemeindegrenzen_hoheitsgrenzpunkt&quot; (geometrie) sql=" id="vw_gemeindegrenzen_hoheitsgrenzpunkt_a0a35e42_a18a_4f2d_a9da_db50c7879fbc" expanded="0" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="gemeindegrenzen_hoheitsgrenzpunkt" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_gemeindegrenzen_hoheitsgrenzpunkt&quot; (geometrie) sql=" id="vw_gemeindegrenzen_hoheitsgrenzpunkt_a0a35e42_a18a_4f2d_a9da_db50c7879fbc" expanded="0" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="gemeindegrenzen_gemeindegrenze" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_gemeindegrenzen_gemeindegrenze&quot; (geometrie) sql=" id="vw_gemeindegrenzen_gemeindegrenze_ceceb0e3_5500_44ee_93f6_0167930fa71f" expanded="0" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="gemeindegrenzen_gemeindegrenze" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_gemeindegrenzen_gemeindegrenze&quot; (geometrie) sql=" id="vw_gemeindegrenzen_gemeindegrenze_ceceb0e3_5500_44ee_93f6_0167930fa71f" expanded="0" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="rohrleitungen_leitungsobjektpos" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_rohrleitungen_leitungsobjektpos&quot; (pos) sql=" id="vw_rohrleitungen_leitungsobjektpos_76aebe84_b1d9_4688_bab2_8b8585bde381" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="rohrleitungen_leitungsobjektpos" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_rohrleitungen_leitungsobjektpos&quot; (pos) sql=" id="vw_rohrleitungen_leitungsobjektpos_76aebe84_b1d9_4688_bab2_8b8585bde381" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="rohrleitungen_linienelement" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;rohrleitungen_linienelement&quot; (geometrie) sql=" id="rohrleitungen_linienelement_cc93478d_ba3a_4fa0_9b99_f5868c4c15f5" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="rohrleitungen_linienelement" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;rohrleitungen_linienelement&quot; (geometrie) sql=" id="rohrleitungen_linienelement_cc93478d_ba3a_4fa0_9b99_f5868c4c15f5" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="liegenschaften_grenzpunkt" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_liegenschaften_grenzpunkt&quot; (geometrie) sql=&quot;gueltigkeit&quot; = 'gueltig'" id="vw_liegenschaften_grenzpunkt_e97add1d_bf8f_4bf9_a019_7a82897231ce" expanded="0" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="liegenschaften_grenzpunkt" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_liegenschaften_grenzpunkt&quot; (geometrie) sql=&quot;gueltigkeit&quot; = 'gueltig'" id="vw_liegenschaften_grenzpunkt_e97add1d_bf8f_4bf9_a019_7a82897231ce" expanded="0" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="liegenschaften_liegenschaft" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;liegenschaften_liegenschaft&quot; (geometrie) sql=" id="liegenschaften_liegenschaft_96972b36_31e0_47c9_8eab_bfaab3e8ffa2" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="liegenschaften_liegenschaft" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;liegenschaften_liegenschaft&quot; (geometrie) sql=" id="liegenschaften_liegenschaft_96972b36_31e0_47c9_8eab_bfaab3e8ffa2" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="liegenschaften_selbstrecht" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;liegenschaften_selbstrecht&quot; (geometrie) sql=" id="liegenschaften_selbstrecht_3d4b36b3_fa80_4e67_a2df_c049924639e6" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="liegenschaften_selbstrecht" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;liegenschaften_selbstrecht&quot; (geometrie) sql=" id="liegenschaften_selbstrecht_3d4b36b3_fa80_4e67_a2df_c049924639e6" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="bodenbedeckung_projboflaeche" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;bodenbedeckung_projboflaeche&quot; (geometrie) sql=&quot;art&quot; = 'Gebaeude'" id="bodenbedeckung_projboflaeche_a782f53d_136e_4c11_a8ed_49bed535b6b4" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="bodenbedeckung_projboflaeche" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table=&quot;agi_dm01avso24&quot;.&quot;bodenbedeckung_projboflaeche&quot; (geometrie) sql=&quot;art&quot; = 'Gebaeude'" id="bodenbedeckung_projboflaeche_a782f53d_136e_4c11_a8ed_49bed535b6b4" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="bodenbedeckung_objektnamepos" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_bodenbedeckung_objektnamepos&quot; (pos) sql=" id="vw_bodenbedeckung_objektnamepos_00553d70_e360_437e_82db_f65f0287bf12" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="bodenbedeckung_objektnamepos" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_bodenbedeckung_objektnamepos&quot; (pos) sql=" id="vw_bodenbedeckung_objektnamepos_00553d70_e360_437e_82db_f65f0287bf12" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="bodenbedeckung_boflaechesymbol" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_bodenbedeckung_boflaechesymbol&quot; (pos) sql=" id="vw_bodenbedeckung_boflaechesymbol_3a6ad41d_d377_49ad_a7ea_f4729bc7825c" expanded="0" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="bodenbedeckung_boflaechesymbol" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_bodenbedeckung_boflaechesymbol&quot; (pos) sql=" id="vw_bodenbedeckung_boflaechesymbol_3a6ad41d_d377_49ad_a7ea_f4729bc7825c" expanded="0" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="einzelobjekte_punktelement" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_einzelobjekte_punktelement&quot; (geometrie) sql=" id="vw_einzelobjekte_punktelement_c27627d7_801e_4e3c_85c2_94af0bb6edb9" expanded="0" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="einzelobjekte_punktelement" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_einzelobjekte_punktelement&quot; (geometrie) sql=" id="vw_einzelobjekte_punktelement_c27627d7_801e_4e3c_85c2_94af0bb6edb9" expanded="0" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="einzelobjekte_linienelement" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_einzelobjekte_linienlelement&quot; (geometrie) sql=" id="vw_einzelobjekte_linienlelement_465d3f8a_32ed_481b_9920_bdb8fdf96455" expanded="0" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="einzelobjekte_linienelement" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_einzelobjekte_linienlelement&quot; (geometrie) sql=" id="vw_einzelobjekte_linienlelement_465d3f8a_32ed_481b_9920_bdb8fdf96455" expanded="0" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="einzelobjekte_flaechenelement" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_einzelobjekte_flaechenelement&quot; (geometrie) sql=" id="vw_einzelobjekte_flaechenelement_c7b6cff3_cb57_458d_a35a_f5bf696228cd" expanded="0" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="einzelobjekte_flaechenelement" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_einzelobjekte_flaechenelement&quot; (geometrie) sql=" id="vw_einzelobjekte_flaechenelement_c7b6cff3_cb57_458d_a35a_f5bf696228cd" expanded="0" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="bodenbedeckung_boflaeche" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;bodenbedeckung_boflaeche&quot; (geometrie) sql=" id="bodenbedeckung_boflaeche_d59a0a5f_0a1e_41d2_9249_82b40e2752a7" expanded="0" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="bodenbedeckung_boflaeche" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;bodenbedeckung_boflaeche&quot; (geometrie) sql=" id="bodenbedeckung_boflaeche_d59a0a5f_0a1e_41d2_9249_82b40e2752a7" expanded="0" checked="Qt::Checked" providerKey="postgres">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="einzelobjekte_flaechenelement_unterirdisch" source="service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_einzelobjekte_flaechenelement&quot; (geometrie) sql=&quot;art&quot; = 'unterirdisches_Gebaeude'" id="vw_einzelobjekte_flaechenelement_1ecc93db_5297_4e8b_8e2f_075ee205e719" expanded="1" checked="Qt::Checked" providerKey="postgres">
+    <layer-tree-layer name="einzelobjekte_flaechenelement_unterirdisch" source="dbname='wmts' host=localhost port=54321 user='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;agi_dm01avso24&quot;.&quot;vw_einzelobjekte_flaechenelement&quot; (geometrie) sql=&quot;art&quot; = 'unterirdisches_Gebaeude'" id="vw_einzelobjekte_flaechenelement_1ecc93db_5297_4e8b_8e2f_075ee205e719" expanded="1" checked="Qt::Checked" providerKey="postgres">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -429,7 +429,7 @@
         <ymax>1246878.97299999999813735</ymax>
       </extent>
       <id>bodenbedeckung_boflaeche_d59a0a5f_0a1e_41d2_9249_82b40e2752a7</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."bodenbedeckung_boflaeche" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."bodenbedeckung_boflaeche" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1422,7 +1422,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1244770.37800000002607703</ymax>
       </extent>
       <id>bodenbedeckung_projboflaeche_a782f53d_136e_4c11_a8ed_49bed535b6b4</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."bodenbedeckung_projboflaeche" (geometrie) sql="art" = 'Gebaeude'</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."bodenbedeckung_projboflaeche" (geometrie) sql="art" = 'Gebaeude'</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1734,7 +1734,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1243743.46099999989382923</ymax>
       </extent>
       <id>fixpunktekatgrie1_hfp1_5ae2cc61_33ec_4abd_b4dd_9f3fb2cbd008</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."fixpunktekatgrie1_hfp1" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."fixpunktekatgrie1_hfp1" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2090,7 +2090,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246417.62899999995715916</ymax>
       </extent>
       <id>fixpunktekatgrie1_lfp1_b984d63d_9ff4_4db0_842e_2ccd83fc8205</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."fixpunktekatgrie1_lfp1" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."fixpunktekatgrie1_lfp1" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2474,7 +2474,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1229305.49500000011175871</ymax>
       </extent>
       <id>fixpunktekatgrie2_hfp2_7f7269be_b5c3_4a29_b4af_f84902738408</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."fixpunktekatgrie2_hfp2" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."fixpunktekatgrie2_hfp2" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2847,7 +2847,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1244310.35400000005029142</ymax>
       </extent>
       <id>fixpunktekatgrie2_lfp2_f9803269_6af1_4b6a_a970_6d18746213bb</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."fixpunktekatgrie2_lfp2" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."fixpunktekatgrie2_lfp2" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3248,7 +3248,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1244218.46999999997206032</ymax>
       </extent>
       <id>fixpunktekatgrie3_hfp3_900acb3d_d761_4387_b29b_13e5d270b760</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."fixpunktekatgrie3_hfp3" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."fixpunktekatgrie3_hfp3" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3622,7 +3622,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246760.32499999995343387</ymax>
       </extent>
       <id>fixpunktekatgrie3_lfp3_1afcce44_f572_4d90_a34d_2c2236c00c07</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."fixpunktekatgrie3_lfp3" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."fixpunktekatgrie3_lfp3" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4164,7 +4164,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246878.97299999999813735</ymax>
       </extent>
       <id>kantonsgrenzen_kantonsgrenzabschnitt_7fa28cb8_f2ff_4e92_9da5_7cb620b49384</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."kantonsgrenzen_kantonsgrenzabschnitt" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."kantonsgrenzen_kantonsgrenzabschnitt" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4432,7 +4432,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1244342.9979999999050051</ymax>
       </extent>
       <id>liegenschaften_grundstueckpos_hilfslinie_9af26d97_7d9e_41de_a512_9f1375c7a598</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."liegenschaften_grundstueckpos" (hilfslinie) sql=hilfslinie IS NOT NULL</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."liegenschaften_grundstueckpos" (hilfslinie) sql=hilfslinie IS NOT NULL</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4781,7 +4781,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246878.97299999999813735</ymax>
       </extent>
       <id>liegenschaften_liegenschaft_96972b36_31e0_47c9_8eab_bfaab3e8ffa2</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."liegenschaften_liegenschaft" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."liegenschaften_liegenschaft" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5094,7 +5094,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1245413.08300000010058284</ymax>
       </extent>
       <id>liegenschaften_selbstrecht_3d4b36b3_fa80_4e67_a2df_c049924639e6</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."liegenschaften_selbstrecht" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."liegenschaften_selbstrecht" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5445,7 +5445,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246605.66699999989941716</ymax>
       </extent>
       <id>rohrleitungen_linienelement_cc93478d_ba3a_4fa0_9b99_f5868c4c15f5</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."rohrleitungen_linienelement" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='0' table="agi_dm01avso24"."rohrleitungen_linienelement" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5810,7 +5810,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246051.86499999999068677</ymax>
       </extent>
       <id>vw_bodenbedeckung_boflaechesymbol_3a6ad41d_d377_49ad_a7ea_f4729bc7825c</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6144,7 +6144,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246780.14899999997578561</ymax>
       </extent>
       <id>vw_bodenbedeckung_objektnamepos_00553d70_e360_437e_82db_f65f0287bf12</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_bodenbedeckung_objektnamepos" (pos) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_bodenbedeckung_objektnamepos" (pos) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6523,7 +6523,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246407.7186964200809598</ymax>
       </extent>
       <id>vw_einzelobjekte_flaechenelement_1ecc93db_5297_4e8b_8e2f_075ee205e719</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_einzelobjekte_flaechenelement" (geometrie) sql="art" = 'unterirdisches_Gebaeude'</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_einzelobjekte_flaechenelement" (geometrie) sql="art" = 'unterirdisches_Gebaeude'</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -6778,7 +6778,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246809.35400000005029142</ymax>
       </extent>
       <id>vw_einzelobjekte_flaechenelement_c7b6cff3_cb57_458d_a35a_f5bf696228cd</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_einzelobjekte_flaechenelement" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_einzelobjekte_flaechenelement" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7124,7 +7124,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246801.96299999998882413</ymax>
       </extent>
       <id>vw_einzelobjekte_linienlelement_465d3f8a_32ed_481b_9920_bdb8fdf96455</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_einzelobjekte_linienlelement" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=LineString checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_einzelobjekte_linienlelement" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7547,7 +7547,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246237.60299999988637865</ymax>
       </extent>
       <id>vw_einzelobjekte_punktelement_c27627d7_801e_4e3c_85c2_94af0bb6edb9</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_einzelobjekte_punktelement" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_einzelobjekte_punktelement" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7985,7 +7985,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246785.54600000008940697</ymax>
       </extent>
       <id>vw_gebaeudeadressen_hausnummerpos_a96b0325_c74a_405c_91b7_a35e0818c0d9</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_gebaeudeadressen_hausnummerpos" (pos) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_gebaeudeadressen_hausnummerpos" (pos) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -8503,7 +8503,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246805.0020000000949949</ymax>
       </extent>
       <id>vw_gebaeudeadressen_lokalisationsnamepos_ffbe8d22_00b9_4ebe_84ca_b0b3afeba41a</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_gebaeudeadressen_lokalisationsnamepos" (pos) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_gebaeudeadressen_lokalisationsnamepos" (pos) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -8888,7 +8888,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246878.97299999999813735</ymax>
       </extent>
       <id>vw_gemeindegrenzen_gemeindegrenze_ceceb0e3_5500_44ee_93f6_0167930fa71f</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_gemeindegrenzen_gemeindegrenze" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Polygon checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_gemeindegrenzen_gemeindegrenze" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9270,7 +9270,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246878.97299999999813735</ymax>
       </extent>
       <id>vw_gemeindegrenzen_hoheitsgrenzpunkt_a0a35e42_a18a_4f2d_a9da_db50c7879fbc</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_gemeindegrenzen_hoheitsgrenzpunkt" (geometrie) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_gemeindegrenzen_hoheitsgrenzpunkt" (geometrie) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9658,7 +9658,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246817.31499999994412065</ymax>
       </extent>
       <id>vw_liegenschaften_grenzpunkt_e97add1d_bf8f_4bf9_a019_7a82897231ce</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_liegenschaften_grenzpunkt" (geometrie) sql="gueltigkeit" = 'gueltig'</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_liegenschaften_grenzpunkt" (geometrie) sql="gueltigkeit" = 'gueltig'</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10046,7 +10046,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246763.41800000006332994</ymax>
       </extent>
       <id>vw_liegenschaften_grundstueckpos_0862104d_3b08_419c_9efc_b5b584ed9b61</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_liegenschaften_grundstueckpos" (pos) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_liegenschaften_grundstueckpos" (pos) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10578,7 +10578,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246749.33100000000558794</ymax>
       </extent>
       <id>vw_nomenklatur_flurnamepos_f5018ae2_6d64_4baf_8505_6025006e311e</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_nomenklatur_flurnamepos" (pos) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_nomenklatur_flurnamepos" (pos) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10962,7 +10962,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246758.90500000002793968</ymax>
       </extent>
       <id>vw_nomenklatur_gelaendenamepos_9afe3c18_7820_4852_b955_981551edd6a9</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_nomenklatur_gelaendenamepos" (pos) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_nomenklatur_gelaendenamepos" (pos) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -11346,7 +11346,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1243853.30799999996088445</ymax>
       </extent>
       <id>vw_nomenklatur_ortsnamepos_0974e851_41e1_4afd_9358_761ed6cf3a9c</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_nomenklatur_ortsnamepos" (pos) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_nomenklatur_ortsnamepos" (pos) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -11730,7 +11730,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>1246113.99399999994784594</ymax>
       </extent>
       <id>vw_rohrleitungen_leitungsobjektpos_76aebe84_b1d9_4688_bab2_8b8585bde381</id>
-      <datasource>service='wmts' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_rohrleitungen_leitungsobjektpos" (pos) sql=</datasource>
+      <datasource>dbname='wmts' host=localhost port=54321 user='admin' password='admin' sslmode=disable key='t_id' srid=2056 type=Point checkPrimaryKeyUnicity='1' table="agi_dm01avso24"."vw_rohrleitungen_leitungsobjektpos" (pos) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
