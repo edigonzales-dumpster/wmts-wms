@@ -12232,7 +12232,7 @@ def my_form_open(dialog, layer, feature):
     <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
     <WMSOnlineResource type="QString"></WMSOnlineResource>
     <WMSPrecision type="QString">8</WMSPrecision>
-    <WMSRootName type="QString">Grundbuchplan_sw</WMSRootName>
+    <WMSRootName type="QString">ch.so.agi.grundbuchplan_sw</WMSRootName>
     <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
