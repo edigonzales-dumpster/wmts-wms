@@ -1,4 +1,5 @@
 # wmts-wms
+[![Build Status](https://travis-ci.org/edigonzales/wmts-wms.svg?branch=master)](https://travis-ci.org/edigonzales/wmts-wms)
 
 ## Developing
 ```
