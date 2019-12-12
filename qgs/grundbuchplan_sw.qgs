@@ -6311,7 +6311,7 @@ def my_form_open(dialog, layer, feature):
                 </Option>
                 <Option name="LabelRotation" type="Map">
                   <Option name="active" type="bool" value="true"/>
-                  <Option name="expression" type="QString" value="(100+&quot;ori&quot;)*0.9"/>
+                  <Option name="expression" type="QString" value="(&quot;ori&quot;-100)*0.9"/>
                   <Option name="type" type="int" value="3"/>
                 </Option>
                 <Option name="PositionX" type="Map">
@@ -8159,7 +8159,7 @@ def my_form_open(dialog, layer, feature):
                     </Option>
                     <Option name="LabelRotation" type="Map">
                       <Option name="active" type="bool" value="true"/>
-                      <Option name="expression" type="QString" value="(100+&quot;ori&quot;)*0.9"/>
+                      <Option name="expression" type="QString" value="(&quot;ori&quot;-100)*0.9"/>
                       <Option name="type" type="int" value="3"/>
                     </Option>
                     <Option name="PositionX" type="Map">
@@ -8274,7 +8274,7 @@ def my_form_open(dialog, layer, feature):
                     </Option>
                     <Option name="LabelRotation" type="Map">
                       <Option name="active" type="bool" value="true"/>
-                      <Option name="expression" type="QString" value="(100+&quot;ori&quot;)*0.9"/>
+                      <Option name="expression" type="QString" value="(&quot;ori&quot;-100)*0.9"/>
                       <Option name="type" type="int" value="3"/>
                     </Option>
                     <Option name="PositionX" type="Map">
@@ -8675,7 +8675,7 @@ def my_form_open(dialog, layer, feature):
                 </Option>
                 <Option name="LabelRotation" type="Map">
                   <Option name="active" type="bool" value="true"/>
-                  <Option name="expression" type="QString" value="(100+&quot;ori&quot;)*0.9"/>
+                  <Option name="expression" type="QString" value="(&quot;ori&quot;-100)*0.9"/>
                   <Option name="type" type="int" value="3"/>
                 </Option>
                 <Option name="PositionX" type="Map">
@@ -11134,7 +11134,7 @@ def my_form_open(dialog, layer, feature):
                 </Option>
                 <Option name="LabelRotation" type="Map">
                   <Option name="active" type="bool" value="true"/>
-                  <Option name="expression" type="QString" value="(100+&quot;ori&quot;)*0.9"/>
+                  <Option name="expression" type="QString" value="(&quot;ori&quot;-100)*0.9"/>
                   <Option name="type" type="int" value="3"/>
                 </Option>
                 <Option name="PositionX" type="Map">
@@ -11518,7 +11518,7 @@ def my_form_open(dialog, layer, feature):
                 </Option>
                 <Option name="LabelRotation" type="Map">
                   <Option name="active" type="bool" value="true"/>
-                  <Option name="expression" type="QString" value="(100+&quot;ori&quot;)*0.9"/>
+                  <Option name="expression" type="QString" value="(&quot;ori&quot;-100)*0.9"/>
                   <Option name="type" type="int" value="3"/>
                 </Option>
                 <Option name="PositionX" type="Map">
@@ -11902,7 +11902,7 @@ def my_form_open(dialog, layer, feature):
                 </Option>
                 <Option name="LabelRotation" type="Map">
                   <Option name="active" type="bool" value="true"/>
-                  <Option name="expression" type="QString" value="(100+&quot;ori&quot;)*0.9"/>
+                  <Option name="expression" type="QString" value="(&quot;ori&quot;-100)*0.9"/>
                   <Option name="type" type="int" value="3"/>
                 </Option>
                 <Option name="PositionX" type="Map">
