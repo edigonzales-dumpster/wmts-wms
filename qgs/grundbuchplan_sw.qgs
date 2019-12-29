@@ -6255,7 +6255,7 @@ def my_form_open(dialog, layer, feature):
       <labeling type="simple">
         <settings calloutType="simple">
           <text-style fontUnderline="0" blendMode="0" fontCapitals="0" isExpression="0" fontWeight="50" fontItalic="1" fieldName="aname" useSubstitutions="0" fontLetterSpacing="0" textOpacity="1" namedStyle="Italic" textColor="0,0,0,255" multilineHeight="1" fontSize="10" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontWordSpacing="0" textOrientation="horizontal" previewBkgrdColor="255,255,255,255" fontFamily="Cadastra">
-            <text-buffer bufferDraw="0" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferNoFill="1" bufferOpacity="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="1"/>
+            <text-buffer bufferSizeUnits="MM" bufferNoFill="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSize="0.4" bufferDraw="1"/>
             <background shapeSVGFile="" shapeType="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeBlendMode="0" shapeBorderColor="128,128,128,255" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeRotation="0" shapeSizeX="0" shapeBorderWidth="0" shapeBorderWidthUnit="MM" shapeRotationType="0" shapeRadiiX="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeOffsetUnit="MM" shapeSizeY="0" shapeSizeUnit="MM" shapeSizeType="0" shapeRadiiY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0">
               <symbol name="markerSymbol" type="marker" alpha="1" clip_to_extent="1" force_rhr="0">
                 <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
@@ -7977,7 +7977,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>t_id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer styleCategories="AllStyleCategories" minScale="3000" simplifyDrawingTol="1" geometry="Point" readOnly="0" simplifyDrawingHints="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="1" autoRefreshTime="0" simplifyLocal="1" simplifyAlgorithm="0" simplifyMaxScale="1" autoRefreshEnabled="0" wkbType="Point" maxScale="1" type="vector" refreshOnNotifyEnabled="0" labelsEnabled="1">
+    <maplayer styleCategories="AllStyleCategories" minScale="1500" simplifyDrawingTol="1" geometry="Point" readOnly="0" simplifyDrawingHints="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="1" autoRefreshTime="0" simplifyLocal="1" simplifyAlgorithm="0" simplifyMaxScale="1" autoRefreshEnabled="0" wkbType="Point" maxScale="1" type="vector" refreshOnNotifyEnabled="0" labelsEnabled="1">
       <extent>
         <xmin>2605953.8169999998062849</xmin>
         <ymin>1222279.97399999992921948</ymin>
@@ -8098,7 +8098,7 @@ def my_form_open(dialog, layer, feature):
           <rule filter=" &quot;astatus&quot;  = 'real'" description="real" key="{a9cad2fd-50cc-45a5-b058-6f9d43de3b1a}">
             <settings calloutType="simple">
               <text-style fontUnderline="0" blendMode="0" fontCapitals="0" isExpression="0" fontWeight="50" fontItalic="0" fieldName="hausnummer" useSubstitutions="0" fontLetterSpacing="0" textOpacity="1" namedStyle="Roman" textColor="0,0,0,255" multilineHeight="1" fontSize="10" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontWordSpacing="0" textOrientation="horizontal" previewBkgrdColor="255,255,255,255" fontFamily="Cadastra">
-                <text-buffer bufferDraw="0" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferNoFill="1" bufferOpacity="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="1"/>
+                <text-buffer bufferSizeUnits="MM" bufferNoFill="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSize="0.4" bufferDraw="1"/>
                 <background shapeSVGFile="" shapeType="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeBlendMode="0" shapeBorderColor="128,128,128,255" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeRotation="0" shapeSizeX="0" shapeBorderWidth="0" shapeBorderWidthUnit="MM" shapeRotationType="0" shapeRadiiX="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeOffsetUnit="MM" shapeSizeY="0" shapeSizeUnit="MM" shapeSizeType="0" shapeRadiiY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0">
                   <symbol name="markerSymbol" type="marker" alpha="1" clip_to_extent="1" force_rhr="0">
                     <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
@@ -8159,7 +8159,7 @@ def my_form_open(dialog, layer, feature):
                     </Option>
                     <Option name="LabelRotation" type="Map">
                       <Option name="active" type="bool" value="true"/>
-                      <Option name="expression" type="QString" value="(&quot;ori&quot;-100)*0.9"/>
+                      <Option type="QString" value="(&quot;ori&quot;-100)*0.9" name="expression"/>
                       <Option name="type" type="int" value="3"/>
                     </Option>
                     <Option name="PositionX" type="Map">
@@ -10159,7 +10159,7 @@ def my_form_open(dialog, layer, feature):
           <rule filter="&quot;art&quot; = 'Liegenschaft'" description="Liegenschaft" key="{cc882425-5440-4b55-b530-1d2398a272e6}">
             <settings calloutType="simple">
               <text-style fontUnderline="0" blendMode="0" fontCapitals="0" isExpression="0" fontWeight="75" fontItalic="0" fieldName="nummer" useSubstitutions="0" fontLetterSpacing="0" textOpacity="1" namedStyle="Bold" textColor="0,0,0,255" multilineHeight="1" fontSize="12" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontWordSpacing="0" textOrientation="horizontal" previewBkgrdColor="255,255,255,255" fontFamily="Cadastra">
-                <text-buffer bufferDraw="0" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferNoFill="1" bufferOpacity="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="1"/>
+                <text-buffer bufferSizeUnits="MM" bufferNoFill="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSize="0.4" bufferDraw="1"/>
                 <background shapeSVGFile="" shapeType="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeBlendMode="0" shapeBorderColor="128,128,128,255" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeRotation="0" shapeSizeX="0" shapeBorderWidth="0" shapeBorderWidthUnit="MM" shapeRotationType="0" shapeRadiiX="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeOffsetUnit="MM" shapeSizeY="0" shapeSizeUnit="MM" shapeSizeType="0" shapeRadiiY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0">
                   <symbol name="markerSymbol" type="marker" alpha="1" clip_to_extent="1" force_rhr="0">
                     <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
@@ -10220,7 +10220,7 @@ def my_form_open(dialog, layer, feature):
                     </Option>
                     <Option name="LabelRotation" type="Map">
                       <Option name="active" type="bool" value="true"/>
-                      <Option name="expression" type="QString" value="(&quot;ori&quot;+100)*0.9"/>
+                      <Option name="expression" type="QString" value="(&quot;ori&quot;-100)*0.9"/>
                       <Option name="type" type="int" value="3"/>
                     </Option>
                     <Option name="PositionX" type="Map">
@@ -10274,7 +10274,7 @@ def my_form_open(dialog, layer, feature):
           <rule filter="&quot;art&quot; = 'SelbstRecht.Baurecht' " description="Liegenschaft" key="{6b535334-5548-41cc-a917-ec6b6bb80976}">
             <settings calloutType="simple">
               <text-style fontUnderline="0" blendMode="0" fontCapitals="0" isExpression="1" fontWeight="75" fontItalic="0" fieldName="'('||nummer||')'" useSubstitutions="0" fontLetterSpacing="0" textOpacity="1" namedStyle="Bold" textColor="0,0,0,255" multilineHeight="1" fontSize="12" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontWordSpacing="0" textOrientation="horizontal" previewBkgrdColor="255,255,255,255" fontFamily="Cadastra">
-                <text-buffer bufferDraw="0" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSizeUnits="MM" bufferNoFill="1" bufferOpacity="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="1"/>
+                <text-buffer bufferSizeUnits="MM" bufferNoFill="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferColor="255,255,255,255" bufferBlendMode="0" bufferSize="0.4" bufferDraw="1"/>
                 <background shapeSVGFile="" shapeType="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeBlendMode="0" shapeBorderColor="128,128,128,255" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeRotation="0" shapeSizeX="0" shapeBorderWidth="0" shapeBorderWidthUnit="MM" shapeRotationType="0" shapeRadiiX="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeOffsetUnit="MM" shapeSizeY="0" shapeSizeUnit="MM" shapeSizeType="0" shapeRadiiY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0">
                   <symbol name="markerSymbol" type="marker" alpha="1" clip_to_extent="1" force_rhr="0">
                     <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
@@ -10335,7 +10335,7 @@ def my_form_open(dialog, layer, feature):
                     </Option>
                     <Option name="LabelRotation" type="Map">
                       <Option name="active" type="bool" value="true"/>
-                      <Option name="expression" type="QString" value="(&quot;ori&quot;+100)*0.9"/>
+                      <Option name="expression" type="QString" value="(&quot;ori&quot;-100)*0.9"/>
                       <Option name="type" type="int" value="3"/>
                     </Option>
                     <Option name="PositionX" type="Map">
