@@ -14,5 +14,5 @@ RUN sed -i 's/\^\/qgis\//\^\/wms\//g' /etc/apache2/sites-enabled/qgis-server.con
 #tell apache/qgis-server where to find the pg_service.conf file
 RUN echo 'SetEnv PGSYSCONFDIR "/etc/postgresql-common"' > /etc/apache2/mods-enabled/env.conf
 
-HEALTHCHECK --interval=30s --timeout=30s --start-period=60s CMD curl http://localhost
+HEALTHCHECK --interval=30s --timeout=10s --start-period=60s CMD curl http://localhost
 

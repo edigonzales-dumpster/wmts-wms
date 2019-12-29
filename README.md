@@ -1,6 +1,5 @@
 # wmts-wms
-[![Build Status](https://travis-ci.org/edigonzales/wmts-wms.svg?branch=master)](https://travis-ci.org/edigonzales/wmts-wms)
-
+[![Build Status](https://github.com/edigonzales/wmts-wms/workflows/CI/CD/badge.svg)](https://github.com/edigonzales/wmts-wms/workflows/CI/CD/badge.svg)
 ## Developing
 ```
 export PGSERVICEFILE=~/sources/wmts-wms/pg/pg_service_dev.conf
