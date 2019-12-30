@@ -14,3 +14,6 @@ Oder in QGIS unter `Settings` -> `Options` -> `System` bei `Environment` die Umg
 ```
 docker build -t sogis/wmts-wms:latest .
 ```
+
+## TODO
+- Die projektierten Liegenschaften werden nicht dargestellt. Immer noch unklar, was am sinnvollsten (für wen?) ist.
